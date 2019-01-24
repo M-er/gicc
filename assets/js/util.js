@@ -1,3 +1,5 @@
 $(document).ready(function() {
-	console.log("Inicializando ");
+	setTimeout(function(){
+		$(".animate-flicker").removeClass('animate-flicker').addClass('');
+	}, 5000);
 });

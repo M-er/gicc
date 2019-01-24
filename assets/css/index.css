@@ -1,0 +1,27 @@
+
+img {
+  -webkit-filter: grayscale(35%);
+  -moz-filter: grayscale(35%);
+  -o-filter: grayscale(35%);
+  -ms-filter: grayscale(35%);
+  filter: grayscale(35%);
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.md-toast-success .md-toast-content{
+    background: #11990a !important;
+}
+.md-toast-error .md-toast-content{
+    background: #990a0a !important;
+}

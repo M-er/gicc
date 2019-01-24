@@ -24,23 +24,8 @@ $container['logueador'] = function ($c) {
 	$loguea = new App\Login($c['logger']);
 	return $loguea;
 };
-$container['usuario'] = function ($c) {
-	$user = new App\User($c['logger']);
-	return $user;
-};
-$container['usuarios'] = function ($c) {
-	$users = new App\UserMapper($c['logger']);
-	return $users;
-};
-$container['producto'] = function ($c) {
-	$product = new App\Product($c['logger']);
-	return $product;
-};
-$container['productos'] = function ($c) {
-	$products = new App\ProductMapper($c['logger']);
-	return $products;
-};
-$container['institucional'] = function ($c) {
-	$institucional = new App\InstitucionalMapper($c['logger']);
-	return $institucional;
+
+$container['enviador'] = function ($c) {
+	$enviador = new App\Enviador($c['logger']);
+	return $enviador;
 };

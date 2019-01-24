@@ -6,6 +6,6 @@ RewriteEngine On
 # absolute physical path to the directory that contains this htaccess file.
 #
 #RewriteBase /
-RewriteBase /adaptiveIpsum/admin/api/
+RewriteBase /gicc/admin/api/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php [QSA,L]
